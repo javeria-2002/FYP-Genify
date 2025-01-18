@@ -1,0 +1,46 @@
+.hero-section {
+    position: relative;
+    background-image: url('../../assets/sample.jpg');
+    /* Your image path */
+    background-size: cover;
+    background-position: center;
+    height: 88.15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.highlight {
+    color: #ff5722;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}

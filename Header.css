@@ -1,0 +1,112 @@
+/* General Header Styling */
+.header {
+    background:black;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2rem;
+    font-weight: xxbold;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 60px;
+    /* Adjust logo size */
+    height: 50px;
+    margin-right: 10px;
+    /* Space between logo and text */
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff8c00;
+    /* Adjust text color */
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.10rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff8c00;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background: #fff;
+    color: #1b1c47;
+}
+
+.signup-button {
+    background: none;
+    color: #ff8c00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px solid #ff8c00;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.signup-button:hover {
+    background: #ff8c00;
+    color: #fbfbfb;
+}
